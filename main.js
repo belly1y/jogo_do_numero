@@ -9,7 +9,7 @@ let botaoReiniciar;
 
 function verificarPalpite () {
     const palpiteUsuario = Number(campoPalpite.value);
-    if (contagemPalpite === 1) {
+    if(contagemPalpite === 1) {
         palpites.textContent = "Palpites anteriores: ";
     }
 
